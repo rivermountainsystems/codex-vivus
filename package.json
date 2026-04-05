@@ -1,0 +1,25 @@
+{
+  "name": "codex-vivus",
+  "version": "1.0.0",
+  "description": "A living intelligence OS that turns your AI conversation history into a persistent, self-referencing knowledge graph that writes back.",
+  "type": "module",
+  "bin": {
+    "codex-vivus": "./bin/codex-vivus.js"
+  },
+  "scripts": {
+    "codex": "tsx src/cli.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^12.8.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^25.5.2",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  }
+}
